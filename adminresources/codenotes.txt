@@ -1,0 +1,71 @@
+login format should always be based:
+    "else if(x==='EXAMPLEusername') {
+        let y = document.getElementById("Password").value;
+    if (y==="EXAMPLEpassword") {
+        open('modFOLDER/adminunlockwebmod-REESETHOMPSON.html')
+    }}"
+    the top username should always be based if not else if, otherwise the system goes ballistic
+
+Public username sign in:
+    On hold till further notice due to design flaws, private admin sign ins should only be available. Full reasoning I want user accounts to be fully customizable to the users ability, with enough users automatic account makers
+
+User file structure if we stay manual:
+    USER--FOLDERS
+        USER--[USERNAME]
+            SYSTEM
+                IMAGES
+                    mainpagepic.jpg
+                    newbackground.jpg
+                main.js
+                style.css
+                READ-ME.txt
+            home.html
+            contacts.html
+            credits.html
+            projects.html
+                Bfrealms
+                    codes.html
+                    donation01.html
+                    index.html
+                    realm01.html
+            rules.html
+        USER--[USERNAME]
+            SYSTEM
+                IMAGES
+                    mainpagepic.jpg
+                    newbackground.jpg
+                main.js
+                style.css
+                READ-ME.txt
+            home.html
+            contacts.html
+            credits.html
+            projects.html
+                Bfrealms
+                    codes.html
+                    donation01.html
+                    index.html
+                    realm01.html
+            rules.html
+
+User file format automatic inside a auto generatred User/client folder:
+    index.html
+    contact.html
+    credits.html
+    login.html
+    projects.html
+    rules.html
+    signup.html
+    accountsetting.html
+    SYSTEM
+        IMAGES
+            mainpagepic.jpg
+            newbackground.jpg
+        main.js
+        style.css
+        READ-ME.txt
+    Bfrealms
+        codes.html
+        donation01.html
+        index.html
+        realm01.html

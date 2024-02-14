@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebMod Dashboard</title>
+</head>
+<body>
+    <style>
+        body {
+            text-align: center;
+            background-color: navy;
+        }
+        h1 {
+            color: darkgreen;
+        }
+        input {
+            font-size: 150%;
+        }
+    </style>
+    <h1>Hi Reese, What can I help you with?</h1>
+    <input type='text' id='admnsearchbar' placeholder="START WITH /">
+    <input type='submit' id='asbsb'>
+    <script>
+        document.getElementById("asbsb").addEventListener("click", function() {
+        let sb = document.getElementById("admnsearchbar").value;
+            if (sb==="/usernames") {
+                open('adminresources/usernames.txt')
+            }
+            else if (sb==="/passwords") {
+                alert('Sorry but you do not have access to this information REASON: ACESS RESTRICTED BY OWNER')
+            }
+            else if (sb==="/userpass") {
+                alert('Sorry but you do not have access to this information REASON: ACCESS RESTRICTED BY OWNER')
+            }
+            else if (sb==="/commands") {
+                open('adminresources/commands.txt')
+            }
+            else if (sb==="/admininfo"){
+                alert('Sorry but you do not have access to this information REASON: ACCESS RESTRICTED BY OWNER')
+            }
+            else if (sb==="/openmainpage") {
+                open('https://bfcreationsmain.github.io/index.html')
+            }
+            else if (sb==='/opencontact') {
+                open('https://bfcreationsmain.github.io/contact.html')
+            }
+            else if (sb==='/opencreditspage') {
+                open('https://bfcreationsmain.github.io/credits.html')
+            }
+            else if (sb==='/openprojectspage') {
+                open('https://bfcreationsmain.github.io/projects.html')
+            }
+            else if (sb==='/openrulespage') {
+                open('https://bfcreationsmain.github.io/rules.html')
+            }
+            else if (sb==='/relogin') {
+                open('https://bfcreationsmain.github.io/login.html')
+            }
+            else if (sb==='/loginSEANRUMBOLD'){
+                alert('Sorry but you do not have access to this account REASON: ACCESS RESTRICTED BY OWNER')
+            }
+            else if (sb==='/currentcode'){
+                open('https://fwcs-my.sharepoint.com/:f:/r/personal/bailey_shull_fwcsstudents_org/Documents/CLASSES/EXTRA/CODE/Bfcreations%202.0?csf=1&web=1&e=AAOoib')
+            }
+            else if (sb==='/loginREESETHOMPSON'){
+                alert('You are already logged into this account')
+            }
+            else if (sb==='/codenotes'){
+                alert('Sorry but you do not have access to this information REASON: ACCESS RESTRICTED BY OWNER')
+            }
+            else if (sb==='/ownernotes') {
+                alert('Sorry but you do not have access to this information REASON: ACCESS RESTRICTED BY OWNER')
+            }
+            else if (sb==='/CODEVnotes') {
+                alert('Sorry but you do not have access to this information REASON: ACCESS RESTRICTED BY OWNER')
+            }
+            else if (sb==='/webmodnotes') {
+                open('adminresources/webmodnotes.txt')
+            }
+            else {
+                alert('ERROR, this is not a command check your spelling or put in the following "/commands" to learn the commands')
+            }
+        });
+    </script>
+</body>
+</html>

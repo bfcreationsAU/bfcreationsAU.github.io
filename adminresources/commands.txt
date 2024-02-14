@@ -1,0 +1,16 @@
+/passwords: Reveal only passwords
+/usernames: Reveal only usernames
+/userpass: Show the username and password match-ups
+/admininfo: Show your admin info
+/openmainpage: Open the home screen of the website
+/opencontactpage: Open contacts
+/opencreditspage: Open credits
+/openprojectspage: Open Projects
+/openrulespage: Open rules
+/relogin: Go back to login page
+/loginSEANRUMBOLD: log in as adminunlockcodev-SEANRUMBOLD
+/currentcode: Open the current code
+/loginREESETHOMPSON: log in as adminunlockwebmod-REESETHOMPSON
+/codenotes
+/ownernotes
+/CODEVnotes
